@@ -13,6 +13,7 @@ Add Live2D widget to web page. Compatible with PJAX.
 ## 示例 Demo
 
 >在[米米的博客](https://zhangshuqiao.org)的左下角可查看效果。(注：以下人物模型仅供展示之用，本仓库并不包含任何模型。)
+>
 >在[Ai的博客](https://cm.aicyan.top)的左下角可查看效果。
 
 ## 引用
