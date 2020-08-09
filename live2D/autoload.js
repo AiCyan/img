@@ -39,44 +39,6 @@ if (screen.width >= 10) {
 
 // 拖拽
 window.onload = function () {
-
-  // var getDiv = document.getElementById("waifu");
-  // limitDrag(getDiv);
-
-  // function limitDrag(node) {
-  //   node.onmousedown = function (ev) {
-  //     var e = ev || window.event;
-  //     var offsetX = e.clientX - this.offsetLeft;
-  //     var offsetY = e.clientY - this.offsetTop;
-  //     document.onmousemove = function (ev) {
-  //       var e = ev || window.event;
-  //       var l = e.clientX - offsetX;
-  //       var t = e.clientY - offsetY;
-  //       if (l <= 0) {
-  //         l = 0;
-  //       }
-  //       var windowWidth =
-  //         document.documentElement.clientWidth || document.body.clientWidth;
-  //       if (l >= windowWidth - node.offsetWidth - 30) {
-  //         l = windowWidth - node.offsetWidth - 30;
-  //       }
-  //       if (t <= 30) {
-  //         t = 30;
-  //       }
-  //       var windowHeight =
-  //         document.documentElement.clientHeight || document.body.clientHeight;
-  //       if (t >= windowHeight - node.offsetHeight) {
-  //         t = windowHeight - node.offsetHeight;
-  //       }
-  //       node.style.left = l + "px";
-  //       node.style.top = t + "px";
-  //     };
-  //     document.onmouseup = function () {
-  //       document.onmousemove = null;
-  //     };
-  //   };
-  // }
-
   var flag = false;
   var cur = {
     x: 0,
